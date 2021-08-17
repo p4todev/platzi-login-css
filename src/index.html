@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-grid</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <!--login -->
+    <div class="container">
+        <div class="container--img">
+            <img src="./img/fondo.svg" alt="">
+        </div>
+        <div class="login__container">
+            <h2 class="login__container--title">Inicia sesion</h2>
+            <div class="login__container--form">
+                <form  method="">
+                    <div class="form__container-elements">
+                        <label for="correo" >Correo</label>
+                        <input type="email" id="correo" placeholder="Correo" required>
+                    </div>
+                    <div class="form__container-elements">
+                        <label for="contrasena" >Contraseña</label>
+                        <input type="password" id="contrasena" placeholder="Contraseña" required>
+                    </div>
+                    <div class="form__container--buttom">
+                        <button type="submit" id="login">Iniciar sesion</button>
+                    </div>
+                </form>
+                <div class="form__container--reset">
+                    <a href="#">he olvidado mi contraseña</a>
+                </div>
+            </div>
+            <div class="login__container--social-media">
+                <button class="login__button" type="submit">goolgle</button>
+                <button class="login__button" type="submit">Facebook</button>
+            </div>
+            <div class="login__container--register">
+                <p>Aun no tienes cuenta <a href="#">Registrate</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
